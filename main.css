@@ -1,0 +1,20 @@
+.card:has(.bookmark) {
+    background: #f3ffaf;
+}
+
+.card:has(:checked) {
+    background: #69d15f;
+    font-weight: 500;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+}
+
+.bookmark {
+    display: flex;
+}
